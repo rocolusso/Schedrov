@@ -1,0 +1,157 @@
+
+div {
+    box-sizing: border-box;
+}
+
+
+/*text*/
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.text-block {
+    text-align: center;
+    margin: 200px 350px;
+}
+
+
+.text-block h2 {
+    color: darkgray;
+}
+
+.text-block p {
+    color: lightgray;
+}
+
+.flexed_items h3, p {
+    text-align: center;
+    margin: 20px 50px;
+}
+
+
+.flexed_item p {
+
+    color: dimgray;
+}
+
+
+/*flex*/
+.flexed_items {
+    display: flex;
+}
+
+/*image*/
+
+.image img {
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.image {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.button {
+    width: 200px;
+    margin: 100px auto;
+
+}
+
+
+button {
+    background-color: #1de9b6;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border: 1px solid #1de9b6;
+    transition-duration: .4s;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px lightgray;
+    cursor: pointer;
+
+}
+
+.flexed_niz_item1 {
+    display: inline-flex;
+    width: 25%;
+    background: #80d8fe;
+    height: 150px;
+}
+
+.flexed_niz_item2 {
+    display: inline-flex;
+    width: 25%;
+    background: #82b1ff;
+    height: 150px;
+}
+
+.flexed_niz_item3 {
+    display: inline-flex;
+    width: 25%;
+    background: #b388fe;
+    height: 150px;
+}
+
+.flexed_niz_item4 {
+    display: inline-flex;
+    width: 25%;
+    background: #ea80fc;
+    height: 150px;
+}
+
+
+.flexed_niz {
+
+    color: white;
+    max-width: 1600px;
+    min-width: 1400px;
+    display: flex;
+}
+
+
+.image2 img {
+    height: 50px;
+    width: 50px;
+    padding-left: 80px;
+    padding-top: 50px;
+
+
+}
+
+.flexed_niz_item1 h3 {
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+.flexed_niz_item2 h3 {
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+.flexed_niz_item3 h3 {
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+.flexed_niz_item4 h3 {
+    padding-left: 30px;
+    padding-top: 35px;
+}
+
+.flexed_niz h3 {
+
+    font-family: 'Open Sans', sans-serif;
+}
